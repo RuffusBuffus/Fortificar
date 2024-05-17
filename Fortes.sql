@@ -23,7 +23,6 @@ constraint Dep_Hor foreign key (ID_Departamentos) references Departamentos(ID_De
 
 create table if not exists Equipe(
 Funcao varchar(100) primary key,
-Nome varchar(45) not null,
 Formacao varchar(45)not null,
 carg_hor_sem int(3) not null);
 
